@@ -1,5 +1,6 @@
 /* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
 import webpack from 'webpack';
+import FaviconsWebpackPlugin from 'favicons-webpack-plugin';
 
 export default {
   context: __dirname,
@@ -11,6 +12,13 @@ export default {
   module: {
     loaders: [
       { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel' },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loaders: [
+            'file?hash=sha512&digest=hex&name=[hash].[ext]',
+            'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+        ]
+    },
     ],
   },
   resolve: {
@@ -29,6 +37,7 @@ export default {
             comments: false,
           },
         }),
+        new FaviconsWebpackPlugin('./joweb.png')
       ];
     }
     return [];
