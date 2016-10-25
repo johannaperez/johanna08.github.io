@@ -6,7 +6,7 @@ import FontIcon from 'material-ui/FontIcon';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { blueGrey500, grey400, grey50 } from 'material-ui/styles/colors';
-const headshot = require('../images/headshot.png');
+const headshot = "/images/headshot.png";
 
 const muiTheme = getMuiTheme({
   palette: {
@@ -78,7 +78,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="dish'd" subtitle="A Meal Planning App" />
             <CardMedia>
-              <img src={require('../images/dishd.png')} />
+              <img src="/images/dishd.png" />
             </CardMedia>
             <CardText>
               Cook delicious food at home with dish'd.
@@ -92,7 +92,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="SelfSee" subtitle="A React Native iOS app" />
             <CardMedia>
-              <img src={require('../images/selfsee.png')} />
+              <img src="/images/selfsee.png" />
             </CardMedia>
             <CardText>
               Take a selfie and see how you really feel.
@@ -105,7 +105,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="Pasture to Pantry" subtitle="A faux e-commerce site" />
             <CardMedia>
-              <img src={require('../images/ptp.png')} />
+              <img src="/images/ptp.png" />
             </CardMedia>
             <CardText>
               Organic foods for delivery from local farmers.
@@ -119,7 +119,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="CONDOR" subtitle="A Shopify e-commerce site" />
             <CardMedia>
-              <img src={require('../images/condor.png')} />
+              <img src="/images/condor.png" />
             </CardMedia>
             <CardText>
               Bespoke fashion from CONDOR.
@@ -132,7 +132,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="Dana At The Table" subtitle="A food stylist website" />
             <CardMedia>
-              <img src={require('../images/datt.png')} />
+              <img src="/images/datt.png" />
             </CardMedia>
             <CardText>
               Portfolio site for a food stylist.
