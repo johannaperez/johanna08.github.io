@@ -1,15 +1,15 @@
 {
-  "name": "spa-github-pages",
-  "version": "2.0.0",
-  "description": "Single Page Apps for GitHub Pages",
+  "name": "Johanna Web Designs",
+  "version": "1.0.0",
+  "description": "Fullstack Web Developer/Designer Portfolio Website",
   "scripts": {
     "start": "webpack -d --watch & live-server --entry-file=404.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafrex/spa-github-pages.git"
+    "url": "git+https://github.com/johanna08/johanna08.github.io"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "Johanna Perez",
   "license": "MIT",
   "dependencies": {
     "current-input": "^1.1.0",
