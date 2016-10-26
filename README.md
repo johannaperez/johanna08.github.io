@@ -1,1 +1,1 @@
-Fullstack Web Developer and Designer Portfolio Website built on React, ES6, Webpack, and launched to Github Pages.
+Fullstack Web Developer and Designer Portfolio Website built on React, Material-UI, ES6, Webpack, and launched to Github Pages.
