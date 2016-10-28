@@ -64,7 +64,7 @@ function App() {
               color={grey50}
               hoverColor={grey400}
             /></a>
-          <a href="https://www.linkedin.com/in/johanna-perez-08894699" target="_blank">
+          <a href="https://www.linkedin.com/in/johanna-perez" target="_blank">
             <FontIcon
               className="fa fa-linkedin"
               style={styles.icon}
