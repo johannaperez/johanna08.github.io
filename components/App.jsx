@@ -71,7 +71,7 @@ function App() {
               color={grey50}
               hoverColor={grey400}
             /></a>
-          <p><a style={styles.resume} href="https://drive.google.com/open?id=0B9XSSlypjssmakZsS0p5SVlaeUk" target="_blank">Resume</a></p>
+          <p><a style={styles.resume} href="https://drive.google.com/open?id=0B9XSSlypjssmUkl6cVplZmg2cDQ" target="_blank">Resume</a></p>
         </div>
         <p style={styles.portfolio}>Portfolio</p>
         <div style={styles.cards}>
