@@ -17,6 +17,7 @@ const muiTheme = getMuiTheme({
 const styles = {
   card: {
     width: 350,
+    marginBottom: 10,
   },
   cards: {
     backgroundColor: '#A0B1B9',
@@ -28,7 +29,6 @@ const styles = {
   container: {
     textAlign: 'center',
     fontSize: 20,
-    fontFamily: "'Roboto', sans-serif",
   },
   landing: {
     background: "url('https://static.wixstatic.com/media/1c692c_aca72c9db50942ada0f7f0a816bcb5f2.jpg/v1/fill/w_2054,h_615,al_c,q_90,usm_0.66_1.00_0.01/1c692c_aca72c9db50942ada0f7f0a816bcb5f2.jpg') center no-repeat",
@@ -41,12 +41,16 @@ const styles = {
     fontSize: 36,
     padding: 5,
   },
+  icons: {
+    padding: 10,
+  },
   resume: {
     color: 'white',
     textDecoration: 'none',
   },
   text: {
-    fontSize: 30,
+    fontSize: 50,
+    fontFamily: "'Marcellus', serif",
   },
 };
 
@@ -57,14 +61,14 @@ function App() {
         <div style={styles.landing}>
           <Avatar src={headshot} size={100} />
           <p style={styles.text}>Johanna Perez</p>
-          <a href="https://github.com/johanna08" target="_blank">
+          <a style={styles.icons} href="https://github.com/johanna08" target="_blank">
             <FontIcon
               className="fa fa-github"
               style={styles.icon}
               color={grey50}
               hoverColor={grey400}
             /></a>
-          <a href="https://www.linkedin.com/in/johanna-perez" target="_blank">
+          <a style={styles.icons} href="https://www.linkedin.com/in/johanna-perez" target="_blank">
             <FontIcon
               className="fa fa-linkedin"
               style={styles.icon}
@@ -75,6 +79,20 @@ function App() {
         </div>
         <p style={styles.portfolio}>Portfolio</p>
         <div style={styles.cards}>
+          <Card style={styles.card}>
+            <CardTitle title="Mighty Lucky Studio" subtitle="A New York Photo Studio" />
+            <CardMedia>
+              <img src="/images/mightyluckystudio.png" />
+            </CardMedia>
+            <CardText>
+              Chic photo studio in the heart of Chinatown.
+            </CardText>
+            <CardActions>
+              <a href="http://mightyluckystudio.com" target="_blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://github.com/johanna08/MightyLuckyStudios" target="_blank"><FlatButton label="Github" /></a>
+            </CardActions>
+          </Card>
+
           <Card style={styles.card}>
             <CardTitle title="dish'd" subtitle="A Meal Planning App" />
             <CardMedia>

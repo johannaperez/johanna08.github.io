@@ -1,5 +1,5 @@
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 p {
@@ -13,4 +13,8 @@ a {
 body {
   font-size: 13px;
   line-height: 20px;
+}
+
+span {
+  font-family: 'Raleway', sans-serif;
 }
