@@ -79,6 +79,21 @@ function App() {
         </div>
         <p style={styles.portfolio}>Portfolio</p>
         <div style={styles.cards}>
+
+          <Card style={styles.card}>
+            <CardTitle title="Dana At The Table" subtitle="A Squarespace custom-built site" />
+            <CardMedia>
+              <img src="/images/datt.png" />
+            </CardMedia>
+            <CardText>
+              New York food stylist portfolio website.
+            </CardText>
+            <CardActions>
+              <a href="http://danaatthetable.com" target="_blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://github.com/johanna08/DanaAtTheTable" target="_blank"><FlatButton label="Github" /></a>
+            </CardActions>
+          </Card>
+
           <Card style={styles.card}>
             <CardTitle title="Mighty Lucky Studio" subtitle="A New York Photo Studio" />
             <CardMedia>
@@ -147,19 +162,6 @@ function App() {
             </CardActions>
           </Card>
 
-          <Card style={styles.card}>
-            <CardTitle title="Dana At The Table" subtitle="A food stylist website" />
-            <CardMedia>
-              <img src="/images/datt.png" />
-            </CardMedia>
-            <CardText>
-              Portfolio site for a food stylist.
-            </CardText>
-            <CardActions>
-              <a href="http://johanna08.github.io/DanaAtTheTable/index.html" target="_blank"><FlatButton label="LiveSite" /></a>
-              <a href="https://github.com/johanna08/DanaAtTheTable" target="_blank"><FlatButton label="Github" /></a>
-            </CardActions>
-          </Card>
         </div>
       </div>
     </MuiThemeProvider>
