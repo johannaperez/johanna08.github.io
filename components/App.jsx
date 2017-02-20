@@ -83,7 +83,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="Anna Lynch-Sparks" subtitle="A Squarespace custom-built site" />
             <CardMedia>
-              <img src="/images/datt.png" />
+              <img src="/images/anna-lynch-sparks.png" />
             </CardMedia>
             <CardText>
               Art and creative director portfolio site.
@@ -96,7 +96,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="Hyphen" subtitle="A Squarespace custom-built site" />
             <CardMedia>
-              <img src="/images/datt.png" />
+              <img src="/images/hyphen.png" />
             </CardMedia>
             <CardText>
               Interior design company based in NYC.
