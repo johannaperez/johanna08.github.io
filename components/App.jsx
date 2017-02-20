@@ -81,6 +81,32 @@ function App() {
         <div style={styles.cards}>
 
           <Card style={styles.card}>
+            <CardTitle title="Anna Lynch-Sparks" subtitle="A Squarespace custom-built site" />
+            <CardMedia>
+              <img src="/images/datt.png" />
+            </CardMedia>
+            <CardText>
+              Art and creative director portfolio site.
+            </CardText>
+            <CardActions>
+              <a href="https://anna-lynch-sparks.squarespace.com" target="_blank"><FlatButton label="LiveSite" /></a>
+            </CardActions>
+          </Card>
+
+          <Card style={styles.card}>
+            <CardTitle title="Hyphen" subtitle="A Squarespace custom-built site" />
+            <CardMedia>
+              <img src="/images/datt.png" />
+            </CardMedia>
+            <CardText>
+              Interior design company based in NYC.
+            </CardText>
+            <CardActions>
+              <a href="https://www.hyphenandco.com" target="_blank"><FlatButton label="LiveSite" /></a>
+            </CardActions>
+          </Card>
+
+          <Card style={styles.card}>
             <CardTitle title="Dana At The Table" subtitle="A Squarespace custom-built site" />
             <CardMedia>
               <img src="/images/datt.png" />
