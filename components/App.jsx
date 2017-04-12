@@ -81,6 +81,19 @@ function App() {
         <div style={styles.cards}>
 
           <Card style={styles.card}>
+            <CardTitle title="Nina Styling" subtitle="A Squarespace custom-built site" />
+            <CardMedia>
+              <img src="/images/ninastyling.png" />
+            </CardMedia>
+            <CardText>
+              Interior design company based in Hudson Valley & NYC.
+            </CardText>
+            <CardActions>
+              <a href="https://www.ninastyling.com" target="_blank"><FlatButton label="LiveSite" /></a>
+            </CardActions>
+          </Card>
+
+          <Card style={styles.card}>
             <CardTitle title="Anna Lynch-Sparks" subtitle="A Squarespace custom-built site" />
             <CardMedia>
               <img src="/images/anna-lynch-sparks.png" />
@@ -89,7 +102,7 @@ function App() {
               Art and creative director portfolio site.
             </CardText>
             <CardActions>
-              <a href="https://anna-lynch-sparks.squarespace.com" target="_blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://annalynchsparks.com" target="_blank"><FlatButton label="LiveSite" /></a>
             </CardActions>
           </Card>
 
