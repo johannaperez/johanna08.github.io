@@ -59,7 +59,7 @@ function App() {
     <MuiThemeProvider muiTheme={muiTheme}>
       <div style={styles.container}>
         <div style={styles.landing}>
-          <Avatar src={headshot} size={100} />
+          <Avatar src={headshot} size={200} />
           <p style={styles.text}>Johanna Perez</p>
           <a style={styles.icons} href="https://github.com/johanna08" target="_blank">
             <FontIcon
