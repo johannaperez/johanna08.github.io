@@ -6,7 +6,7 @@ import FontIcon from 'material-ui/FontIcon';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { blueGrey500, grey400, grey50 } from 'material-ui/styles/colors';
-const headshot = "/images/headshot.png";
+const headshot = "/images/joandbrooks.jpg";
 
 const muiTheme = getMuiTheme({
   palette: {
