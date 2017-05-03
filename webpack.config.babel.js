@@ -37,7 +37,7 @@ export default {
             comments: false,
           },
         }),
-        new FaviconsWebpackPlugin('./joweb.png'),
+        new FaviconsWebpackPlugin('./joweblogo.png'),
       ];
     }
     return [];
