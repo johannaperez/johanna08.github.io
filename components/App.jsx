@@ -81,6 +81,19 @@ function App() {
         <div style={styles.cards}>
 
           <Card style={styles.card}>
+            <CardTitle title="The Steady Center" subtitle="A Squarespace custom-built site" />
+            <CardMedia>
+              <img src="/images/steadycenter.png" />
+            </CardMedia>
+            <CardText>
+              Occupational therapy center specializing in balance.
+            </CardText>
+            <CardActions>
+              <a href="https://thesteadycenter.com" target="_blank"><FlatButton label="LiveSite" /></a>
+            </CardActions>
+          </Card>
+
+          <Card style={styles.card}>
             <CardTitle title="Nina Styling" subtitle="A Squarespace custom-built site" />
             <CardMedia>
               <img src="/images/ninastyling.png" />
