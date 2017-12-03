@@ -37,6 +37,10 @@ const styles = {
     paddingTop: 150,
     paddingBottom: 15,
   },
+  envelopeIcon: {
+    fontSize: 30,
+    padding: 5,
+  },
   icon: {
     fontSize: 36,
     padding: 5,
@@ -64,7 +68,7 @@ function App() {
           <a style={styles.icons} mailto="johannawebdesigns@gmail.com" target="_blank">
             <FontIcon
               className="fa fa-envelope"
-              style={styles.icon}
+              style={styles.envelopeIcon}
               color={grey50}
               hoverColor={grey400}
             /></a>
@@ -114,7 +118,7 @@ function App() {
           </Card>
 
           <Card style={styles.card}>
-            <CardTitle title="Nina Styling" subtitle="A Squarespace custom-built site" />
+            <CardTitle title="Nina Styling & Interiors" subtitle="A Squarespace custom-built site" />
             <CardMedia>
               <img src="/images/ninastyling.png" />
             </CardMedia>
@@ -140,7 +144,7 @@ function App() {
           </Card>
 
           <Card style={styles.card}>
-            <CardTitle title="Hyphen" subtitle="A Squarespace custom-built site" />
+            <CardTitle title="Hyphen & Co" subtitle="A Squarespace custom-built site" />
             <CardMedia>
               <img src="/images/hyphen.png" />
             </CardMedia>
