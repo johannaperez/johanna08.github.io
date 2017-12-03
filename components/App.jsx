@@ -65,28 +65,28 @@ function App() {
         <div style={styles.landing}>
           <Avatar src={headshot} size={200} />
           <p style={styles.text}>Johanna Perez</p>
-          <a style={styles.icons} mailto="johannawebdesigns@gmail.com" target="_blank">
+          <a style={styles.icons} href="mailto: johannawebdesigns@gmail.com" target="blank">
             <FontIcon
               className="fa fa-envelope"
               style={styles.envelopeIcon}
               color={grey50}
               hoverColor={grey400}
             /></a>
-          <a style={styles.icons} href="https://github.com/johanna08" target="_blank">
+          <a style={styles.icons} href="https://github.com/johanna08" target="blank">
             <FontIcon
               className="fa fa-github"
               style={styles.icon}
               color={grey50}
               hoverColor={grey400}
             /></a>
-          <a style={styles.icons} href="https://www.linkedin.com/in/johanna-perez" target="_blank">
+          <a style={styles.icons} href="https://www.linkedin.com/in/johanna-perez" target="blank">
             <FontIcon
               className="fa fa-linkedin"
               style={styles.icon}
               color={grey50}
               hoverColor={grey400}
             /></a>
-          <p><a style={styles.resume} href="https://drive.google.com/open?id=0B9XSSlypjssmZ2wwcERzd0NXMG8" target="_blank">Resume</a></p>
+          <p><a style={styles.resume} href="https://drive.google.com/open?id=0B9XSSlypjssmZ2wwcERzd0NXMG8" target="blank">Resume</a></p>
         </div>
         <p style={styles.portfolio}>Collection</p>
         <div style={styles.cards}>
@@ -100,7 +100,7 @@ function App() {
               Interior design company based in Pasadena, CA.
             </CardText>
             <CardActions>
-              <a href="https://denisebosleyinteriors.com" target="_blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://denisebosleyinteriors.com" target="blank"><FlatButton label="LiveSite" /></a>
             </CardActions>
           </Card>
 
@@ -113,7 +113,7 @@ function App() {
               Occupational therapy center specializing in balance.
             </CardText>
             <CardActions>
-              <a href="https://thesteadycenter.com" target="_blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://thesteadycenter.com" target="blank"><FlatButton label="LiveSite" /></a>
             </CardActions>
           </Card>
 
@@ -126,7 +126,7 @@ function App() {
               Interior design company based in Hudson Valley & NYC.
             </CardText>
             <CardActions>
-              <a href="https://www.ninastyling.com" target="_blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://www.ninastyling.com" target="blank"><FlatButton label="LiveSite" /></a>
             </CardActions>
           </Card>
 
@@ -139,7 +139,7 @@ function App() {
               Art and creative director portfolio site.
             </CardText>
             <CardActions>
-              <a href="https://annalynchsparks.com" target="_blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://annalynchsparks.com" target="blank"><FlatButton label="LiveSite" /></a>
             </CardActions>
           </Card>
 
@@ -152,7 +152,7 @@ function App() {
               Interior design company based in NYC.
             </CardText>
             <CardActions>
-              <a href="https://www.hyphenandco.com" target="_blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://www.hyphenandco.com" target="blank"><FlatButton label="LiveSite" /></a>
             </CardActions>
           </Card>
 
@@ -165,8 +165,8 @@ function App() {
               New York food stylist portfolio website.
             </CardText>
             <CardActions>
-              <a href="http://danaatthetable.com" target="_blank"><FlatButton label="LiveSite" /></a>
-              <a href="https://github.com/johanna08/DanaAtTheTable" target="_blank"><FlatButton label="Github" /></a>
+              <a href="http://danaatthetable.com" target="blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://github.com/johanna08/DanaAtTheTable" target="blank"><FlatButton label="Github" /></a>
             </CardActions>
           </Card>
 
@@ -179,8 +179,8 @@ function App() {
               Chic photo studio in the heart of Chinatown.
             </CardText>
             <CardActions>
-              <a href="http://mightyluckystudio.com" target="_blank"><FlatButton label="LiveSite" /></a>
-              <a href="https://github.com/johanna08/MightyLuckyStudios" target="_blank"><FlatButton label="Github" /></a>
+              <a href="http://mightyluckystudio.com" target="blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://github.com/johanna08/MightyLuckyStudios" target="blank"><FlatButton label="Github" /></a>
             </CardActions>
           </Card>
 
@@ -193,8 +193,8 @@ function App() {
               Cook delicious food at home with dish'd.
             </CardText>
             <CardActions>
-              <a href="http://www.dishd.us" target="_blank"><FlatButton label="LiveSite" /></a>
-              <a href="https://github.com/johanna08/Dish-d" target="_blank"><FlatButton label="Github" /></a>
+              <a href="http://www.dishd.us" target="blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://github.com/johanna08/Dish-d" target="blank"><FlatButton label="Github" /></a>
             </CardActions>
           </Card>
 
@@ -207,7 +207,7 @@ function App() {
               Take a selfie and see how you really feel.
             </CardText>
             <CardActions>
-              <a href="https://github.com/johanna08/SelfSee-Mobile" target="_blank"><FlatButton label="Github" /></a>
+              <a href="https://github.com/johanna08/SelfSee-Mobile" target="blank"><FlatButton label="Github" /></a>
             </CardActions>
           </Card>
 
@@ -220,8 +220,8 @@ function App() {
               Organic foods for delivery from local farmers.
             </CardText>
             <CardActions>
-              <a href="https://pasturetopantry.herokuapp.com" target="_blank"><FlatButton label="LiveSite" /></a>
-              <a href="https://github.com/johanna08/pasturetopantry" target="_blank"><FlatButton label="Github" /></a>
+              <a href="https://pasturetopantry.herokuapp.com" target="blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://github.com/johanna08/pasturetopantry" target="blank"><FlatButton label="Github" /></a>
             </CardActions>
           </Card>
 
@@ -234,7 +234,7 @@ function App() {
               Bespoke fashion from CONDOR.
             </CardText>
             <CardActions>
-              <a href="http://shopcondor.myshopify.com" target="_blank"><FlatButton label="LiveSite" /></a>
+              <a href="http://shopcondor.myshopify.com" target="blank"><FlatButton label="LiveSite" /></a>
             </CardActions>
           </Card>
 
