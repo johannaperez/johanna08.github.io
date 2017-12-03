@@ -61,6 +61,13 @@ function App() {
         <div style={styles.landing}>
           <Avatar src={headshot} size={200} />
           <p style={styles.text}>Johanna Perez</p>
+          <a style={styles.icons} mailto="johannawebdesigns@gmail.com" target="_blank">
+            <FontIcon
+              className="fa fa-envelope"
+              style={styles.icon}
+              color={grey50}
+              hoverColor={grey400}
+            /></a>
           <a style={styles.icons} href="https://github.com/johanna08" target="_blank">
             <FontIcon
               className="fa fa-github"
@@ -79,6 +86,19 @@ function App() {
         </div>
         <p style={styles.portfolio}>Collection</p>
         <div style={styles.cards}>
+
+          <Card style={styles.card}>
+            <CardTitle title="Denise Bosley Interiors" subtitle="A Squarespace custom-built site" />
+            <CardMedia>
+              <img src="/images/denisebosleyinteriors.png" />
+            </CardMedia>
+            <CardText>
+              Interior design company based in Pasadena, CA.
+            </CardText>
+            <CardActions>
+              <a href="https://denisebosleyinteriors.com" target="_blank"><FlatButton label="LiveSite" /></a>
+            </CardActions>
+          </Card>
 
           <Card style={styles.card}>
             <CardTitle title="The Steady Center" subtitle="A Squarespace custom-built site" />
