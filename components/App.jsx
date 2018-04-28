@@ -131,6 +131,19 @@ function App() {
           </Card>
 
           <Card style={styles.card}>
+            <CardTitle title="From Closing to Table" subtitle="A Squarespace custom-built site" />
+            <CardMedia>
+              <img src="/images/fctt.png" />
+            </CardMedia>
+            <CardText>
+              Art and creative director portfolio site.
+            </CardText>
+            <CardActions>
+              <a href="https://annalynchsparks.com" target="blank"><FlatButton label="LiveSite" /></a>
+            </CardActions>
+          </Card>
+
+          <Card style={styles.card}>
             <CardTitle title="Anna Lynch-Sparks" subtitle="A Squarespace custom-built site" />
             <CardMedia>
               <img src="/images/anna-lynch-sparks.png" />
