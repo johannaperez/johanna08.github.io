@@ -136,10 +136,10 @@ function App() {
               <img src="/images/fctt.png" />
             </CardMedia>
             <CardText>
-              Art and creative director portfolio site.
+              NYC real estate broker hosts client tasting dinners.
             </CardText>
             <CardActions>
-              <a href="https://annalynchsparks.com" target="blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://fromclosingtotable.com" target="blank"><FlatButton label="LiveSite" /></a>
             </CardActions>
           </Card>
 
