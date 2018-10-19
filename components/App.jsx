@@ -92,6 +92,19 @@ function App() {
         <div style={styles.cards}>
 
           <Card style={styles.card}>
+            <CardTitle title="Le Petit Bustro" subtitle="A Squarespace custom-built site" />
+            <CardMedia>
+              <img src="/images/lepetitbistro.png" />
+            </CardMedia>
+            <CardText>
+              French bistro in Rhinebeck, NY.
+            </CardText>
+            <CardActions>
+              <FlatButton disabled="true" label="Coming Soon" />
+            </CardActions>
+          </Card>
+
+          <Card style={styles.card}>
             <CardTitle title="Denise Bosley Interiors" subtitle="A Squarespace custom-built site" />
             <CardMedia>
               <img src="/images/denisebosleyinteriors.png" />
