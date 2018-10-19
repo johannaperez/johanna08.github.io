@@ -113,7 +113,7 @@ function App() {
               Interior design company based in Pasadena, CA.
             </CardText>
             <CardActions>
-              <a href="https://denisebosleyinteriors.com" target="blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://denisebosleyinteriors.com" target="blank"><FlatButton label="Coming Soon" /></a>
             </CardActions>
           </Card>
 
@@ -126,7 +126,7 @@ function App() {
               Occupational therapy center specializing in balance.
             </CardText>
             <CardActions>
-              <a href="https://thesteadycenter.com" target="blank"><FlatButton label="LiveSite" /></a>
+              <a href="https://thesteadycenter.com" target="blank"><FlatButton disabled="true" label="LiveSite" /></a>
             </CardActions>
           </Card>
 
