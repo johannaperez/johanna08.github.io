@@ -6,7 +6,7 @@ import FontIcon from 'material-ui/FontIcon';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { blueGrey500, grey400, grey50 } from 'material-ui/styles/colors';
-const headshot = "/images/joandbrooks.jpg";
+const headshot = '/images/joandbrooks.jpg';
 
 const muiTheme = getMuiTheme({
   palette: {
@@ -92,22 +92,22 @@ function App() {
         <div style={styles.cards}>
 
           <Card style={styles.card}>
-            <CardTitle title="Le Petit Bustro" subtitle="A Squarespace custom-built site" />
+            <CardTitle title="Le Petit Bistro" subtitle="A Squarespace custom-built site" />
             <CardMedia>
-              <img src="/images/lepetitbistro.png" />
+              <img alt="Le Petit Bistro" src="/images/lepetitbistro.png" />
             </CardMedia>
             <CardText>
               French bistro in Rhinebeck, NY.
             </CardText>
             <CardActions>
-              <FlatButton disabled="true" label="Coming Soon" />
+              <a href="https://lepetitbistro.com" target="blank"><FlatButton label="LiveSite" /></a>
             </CardActions>
           </Card>
 
           <Card style={styles.card}>
             <CardTitle title="Denise Bosley Interiors" subtitle="A Squarespace custom-built site" />
             <CardMedia>
-              <img src="/images/denisebosleyinteriors.png" />
+              <img alt="Denise Bosley Interiors" src="/images/denisebosleyinteriors.png" />
             </CardMedia>
             <CardText>
               Interior design company based in Pasadena, CA.
@@ -120,7 +120,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="The Steady Center" subtitle="A Squarespace custom-built site" />
             <CardMedia>
-              <img src="/images/steadycenter.png" />
+              <img alt="Shot of 3 rocks balanced on one another with a waterfall in the background" src="/images/steadycenter.png" />
             </CardMedia>
             <CardText>
               Occupational therapy center specializing in balance.
@@ -133,7 +133,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="Nina Styling & Interiors" subtitle="A Squarespace custom-built site" />
             <CardMedia>
-              <img src="/images/ninastyling.png" />
+              <img alt="Shot of a living room desgined by Nina Styling & Interiors" src="/images/ninastyling.png" />
             </CardMedia>
             <CardText>
               Interior design company based in Hudson Valley & NYC.
@@ -146,7 +146,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="From Closing to Table" subtitle="A Squarespace custom-built site" />
             <CardMedia>
-              <img src="/images/fctt.png" />
+              <img alt="Shot of 3 different food dishes" src="/images/fctt.png" />
             </CardMedia>
             <CardText>
               NYC real estate broker hosts client tasting dinners.
@@ -159,7 +159,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="Anna Lynch-Sparks" subtitle="A Squarespace custom-built site" />
             <CardMedia>
-              <img src="/images/anna-lynch-sparks.png" />
+              <img alt="Shot of woman's leg wearing a high heel propped up on a graffiti wall" src="/images/anna-lynch-sparks.png" />
             </CardMedia>
             <CardText>
               Art and creative director portfolio site.
@@ -172,7 +172,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="Hyphen & Co" subtitle="A Squarespace custom-built site" />
             <CardMedia>
-              <img src="/images/hyphen.png" />
+              <img alt="Screenshot of living room designed by Hyphen & Co" src="/images/hyphen.png" />
             </CardMedia>
             <CardText>
               Interior design company based in NYC.
@@ -185,7 +185,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="Dana At The Table" subtitle="A Squarespace custom-built site" />
             <CardMedia>
-              <img src="/images/datt.png" />
+              <img alt="Screenshot of table scape with food" src="/images/datt.png" />
             </CardMedia>
             <CardText>
               New York food stylist portfolio website.
@@ -197,23 +197,9 @@ function App() {
           </Card>
 
           <Card style={styles.card}>
-            <CardTitle title="Mighty Lucky Studio" subtitle="A New York Photo Studio" />
-            <CardMedia>
-              <img src="/images/mightyluckystudio.png" />
-            </CardMedia>
-            <CardText>
-              Chic photo studio in the heart of Chinatown.
-            </CardText>
-            <CardActions>
-              <a href="http://mightyluckystudio.com" target="blank"><FlatButton label="LiveSite" /></a>
-              <a href="https://github.com/johanna08/MightyLuckyStudios" target="blank"><FlatButton label="Github" /></a>
-            </CardActions>
-          </Card>
-
-          <Card style={styles.card}>
             <CardTitle title="dish'd" subtitle="A Meal Planning App" />
             <CardMedia>
-              <img src="/images/dishd.png" />
+              <img alt="Screenshot of delicious plate of food on top of grey napkin" src="/images/dishd.png" />
             </CardMedia>
             <CardText>
               Cook delicious food at home with dish'd.
@@ -227,7 +213,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="SelfSee" subtitle="A React Native iOS app" />
             <CardMedia>
-              <img src="/images/selfsee.png" />
+              <img alt="Screenshot of mobile phone showing app choices" src="/images/selfsee.png" />
             </CardMedia>
             <CardText>
               Take a selfie and see how you really feel.
@@ -240,7 +226,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="Pasture to Pantry" subtitle="A faux e-commerce site" />
             <CardMedia>
-              <img src="/images/ptp.png" />
+              <img alt="Screenshot of brown and white cow in pasture" src="/images/ptp.png" />
             </CardMedia>
             <CardText>
               Organic foods for delivery from local farmers.
@@ -254,7 +240,7 @@ function App() {
           <Card style={styles.card}>
             <CardTitle title="CONDOR" subtitle="A Shopify e-commerce site" />
             <CardMedia>
-              <img src="/images/condor.png" />
+              <img alt="Screenshot of woman crossing street" src="/images/condor.png" />
             </CardMedia>
             <CardText>
               Bespoke fashion from CONDOR.
